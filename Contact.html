@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="M SHREE HARSHA BHAT">
+        <meta name="description" content="Contact Details of M Shree Harsha Bhat">
+        <title>Contact Details</title>
+    </head>
+    <body>
+        <section>
+            <h1>My Contact Details</h1>
+        </section>
+        <section>
+            <h3>Address</h3>
+            <address>N1/7 Vidyanagar<br> Toranagallu<br>
+                Bellary<br> Karnataka 583275
+            </address>
+            <br>
+            <h3>Phone Number</h3>
+            <a href="tel:9739835034">9739835034</a>
+            <br>
+            <h3>Email</h3>
+            <a href="mailto:shreeharsha.mbhat@gmail.com">shreeharsha.mbhat@gmail.com</a>
+        </section>
+        <section>
+            <h3>Contact Me</h3>
+            <form action="mailto:shreeharsha.mbhat@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="FirstName">First Name : </label>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Ex : Harsha" required autocomplete="on" autofocus>
+                    <br>
+                    <label for="LastName">Last Name : </label>
+                    <input type="text" name="LastName" id="LastName" placeholder="Ex : Bhat" autocomplete="on">
+                    <br>
+                    <label for="email">Email ID : </label>
+                    <input type="mail" name="email" id="email" required>
+                    <br>
+                    <label for="DOB">Date Of Birth : </label>
+                    <input type="date" name="DOB" id="DOB" required>
+                    <br>
+                    <label for="PhoneNo">Phone Number : </label>
+                    <input type="tel" name="PhoneNo" id="PhoneNo" required>
+                    <br>
+                    <label for="age">Age : </label>
+                    <input type="number" name="age" id="age" step="1" 
+                    min="0" value="18">
+                    <br>
+                    <p>Gender : </p>
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="others" value="Others">
+                    <label for="others">Others</label>
+                    <br>
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" required>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Funny Questions Survey</legend>
+                    <ol>
+                        <li>Favourite Domain of Computer science</li>
+                        <input type="checkbox" name="FavDomain" id="WebDev" value="Web Development">
+                        <label for="WebDev">Web Development</label>
+                        <br>
+                        <input type="checkbox" name="FavDomain" id="CP" value="Competative Programming">
+                        <label for="CP">Competative Programming</label>
+                        <br>
+                        <input type="checkbox" name="FavDomain" id="AI" value="Artificial Intelligence">
+                        <label for="AI">Artificial Intelligence</label>
+                        <br>
+                        <input type="checkbox" name="FavDomain" id="ML" value="Machine Learning">
+                        <label for="ML">Machine Learning</label>
+                        <br>
+                        <li>Favourite Sport</li>
+                        <label for="sport">Choose : </label>
+                        <select name="FavSport" id="sport">
+                            <option value="Cricket">Cricket</option>
+                            <option value="Badminton">Badminton</option>
+                            <option value="Football">Football</option>
+                            <option value="Kabaddi">Kabaddi</option>
+                            <option value="F1">F1</option>
+                            <option value="Hockey">Hockey</option>
+                        </select>
+                        <br>
+                        <li>Favourite Food Item</li>
+                        <label for="FavFood">Choose : </label>
+                        <input type="text" name="food" id="FavFood" list="Foodlist">
+                        <datalist id="Foodlist">
+                            <option value="Palav">Palav</option>
+                            <option value="Dosa">Dosa</option>
+                            <option value="Idly">Idly</option>
+                            <option value="Jalebi">Jalebi</option>
+                            <option value="Poha">Poha</option>
+                            <option value="Roti-Sabgi">Roti-Sabgi</option>
+                        </datalist>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Send Me a Note
+                    </legend>
+                    <label for="message">Your Message</label><br>
+                    <textarea cols="40" rows="10" id="message" name="message" placeholder="Type Your Message Here"></textarea>
+                </fieldset>
+                <input type="submit">
+            </form>
+        </section>
+    </body>
+    <br><br><br><br><br><br><br><br><br><br><hr>
+    <a href="Contact.html">Back To Top</a>
+    <a href="/index.html">Home</a>
+    <footer>
+        &lt;&lt;&copy;M SHREE HARSHA BHAT &gt;&gt;
+    </footer>
+</html>
